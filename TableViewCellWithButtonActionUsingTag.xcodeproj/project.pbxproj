@@ -12,6 +12,7 @@
 		E01A562922D9239A00BED24A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01A562722D9239A00BED24A /* Main.storyboard */; };
 		E01A562B22D9239B00BED24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01A562A22D9239B00BED24A /* Assets.xcassets */; };
 		E01A562E22D9239B00BED24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01A562C22D9239B00BED24A /* LaunchScreen.storyboard */; };
+		E01A563622D9240E00BED24A /* YoutubersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01A563522D9240E00BED24A /* YoutubersCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E01A562A22D9239B00BED24A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E01A562D22D9239B00BED24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E01A562F22D9239B00BED24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01A563522D9240E00BED24A /* YoutubersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubersCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E01A562322D9239A00BED24A /* AppDelegate.swift */,
 				E01A562522D9239A00BED24A /* ViewController.swift */,
+				E01A563522D9240E00BED24A /* YoutubersCell.swift */,
 				E01A562722D9239A00BED24A /* Main.storyboard */,
 				E01A562A22D9239B00BED24A /* Assets.xcassets */,
 				E01A562C22D9239B00BED24A /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E01A563622D9240E00BED24A /* YoutubersCell.swift in Sources */,
 				E01A562622D9239A00BED24A /* ViewController.swift in Sources */,
 				E01A562422D9239A00BED24A /* AppDelegate.swift in Sources */,
 			);
